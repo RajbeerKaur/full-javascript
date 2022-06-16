@@ -241,3 +241,260 @@ while(i < 5) {
   i++;
 }
 console.log(myArray);
+
+//for loop
+//var i =0   (is a initalization)
+// i<5  (condition) if the condition is fall after the loop then exprestion
+//i++ (exprestion)
+
+var myArray=[];
+for( var i=1; i < 5;i++);{
+myArray.push(i);
+}
+console.log(myArray);
+
+//even no
+var myArray=[];
+for(var i=1;i<10;i+=2){
+  myArray.push(i);
+}
+console.log(myArray);
+
+//low no
+var myArray=[];
+for(var i=9;i>0;i-=2){
+  myArray.push(i);
+}
+console.log(myArray);
+
+//array lenth
+var myArray =[];
+var total=0;
+for(var i=0;i<myArray.lenth;i++){
+  total += myArray[i];
+}
+console.log(total);
+
+//nesting for loops
+function multiplyAll (arr){
+  var sum=1;
+  for (var i=0; i< arr.lenth;i++){
+  for (var j=0; j < arr[i].lenth;j++){
+    sum *=arr[1][j];
+}
+  }
+return sum;
+}
+ var sum= multiplyAll ([[1,2],[3,4],[5,6,7]]);
+console.log(sum);
+
+//do while loop
+var myArr=[];
+var i=0;
+while(i<5){                // do{  myArr.push(i);
+                              //  i++;
+  myArr.push(i);               //     }
+                               // while(i<5);
+i++;
+}
+console.log(i,myArr);
+
+//random no
+function randomNum(){
+  return Math.random();
+}
+console.log(randomNum());
+
+//if else condition
+function checkList(a,b){
+if(a===b){
+  return true;    //(return a===b ? true:false;  or  return a===b;
+}
+else{
+  return false;
+}
+}
+console.log(checkList(2,2));
+//multiple array
+
+const s = [5,7,8];
+//function multipleArr(){
+  //s = [0] = 16;
+ // s = [1] = 2;
+ // s = [2] = 3;
+//}
+//multipleArr();
+        //console.log(s);  
+//new function
+var myAge =30;
+console.log(myAge);
+
+//two variable
+let yourAge=35;
+let humanDogRatio=7;
+let count=yourAge*humanDogRatio;
+console.log(count);
+
+//increment
+let countNum =10;
+countNum+=2;
+countNum-=2;
+console.log(countNum);
+//bonus point
+let bonusPoint=50;
+bonusPoint+=100;
+console.log(bonusPoint);
+bonusPoint-=25;
+console.log(bonusPoint);
+bonusPoint+=70;
+console.log(bonusPoint);
+//incremenmt button// how the button cxan work
+function increment(){
+  console.log("button is clicked");
+}
+//invoke the function
+
+function countDown(){
+  console.log (42);
+}
+countDown();
+
+//count with inner
+let countEl= document.getElementById("count-el")
+let countSum = 10;
+
+function increment(){
+  countSum+=12 ;
+  countEl.innerText=countSum;
+}
+  console.log(countSum);
+function save(){
+  console.log(count);
+}
+//first string variable
+
+let userName = "rajbeer";
+let message = "hello"
+let messageToUser="we have locked";
+console.log(userName  + "," + message + "," + messageToUser);
+//new
+let name = "rajbir"
+let greeting = "hello"
+let myGreeting=name + " ." + greeting;
+console.log(myGreeting);
+//second challNGE
+let welcomeEl=document.getElementById("welcome-el")
+  let finame = "rajbeer";
+let figreeting = "hello"
+//welcomeEl.innerText = finame +  figreeting
+
+console.log();
+
+//use + or =
+//increment project
+
+/*let countEl=document.getElementById("count-el")
+let saveEl=document.getElementById("save-el")
+let count=0
+ function increment(){
+   count+=1
+   countEl.inner.text =count
+ }
+function save(){
+  let countstr=count+"-"
+  saveEl.inner.Text+=countstr
+}*/
+
+
+//addponts( ) remove points()
+
+let myPoints=0;
+function add3Points(){
+myPoints += 3
+}
+function removelPoints(){
+  myPoints -= 1
+}
+console.log(myPoints);
+
+//customer wanna purch something
+let errorPara=document.getElementById("error")
+function purchase(){
+  console.log("button clicked")
+  errorPara.textContent = "you are wrong"
+}
+//
+function  add(){
+ let result=num1+num2
+ sumEl.textContent=sum+result
+
+  
+}
+console.log(2+4)
+
+//black jet
+let firstCard=22
+let secondCard=1
+let card = firstCard + secondCard;
+console.log(card)
+if(card < 21){
+ 
+  console.log("not")
+}
+else if (card === 21)
+  {
+ console.log ("you win")
+  }
+else if (card > 21)
+  {
+   console.log("draw")
+  }
+console.log(card);
+
+//person age
+let age=22
+if(age > 27){
+  console.log("you cannot")
+}
+else{
+  console.log("welcome")
+}
+//birthday card
+let startAge = 180
+if(startAge < 100){
+  console.log("not elegible")
+}
+else if (startAge === 100)
+  {
+   console.log ("here is your ")
+  }
+else{
+  console.log("not elegible")
+}
+
+console.log(startAge)
+
+//if else
+let firstCards = 10
+let secondPap = 7
+let sums = firstCards + secondPap +14
+let massage =""
+
+if(sums <= 20){
+  console.log("you want draw")
+}
+else if (sums === 21)
+  {
+   console.log ("wow" )
+  }
+else{
+  console.log(" you arenot elegible")
+}
+
+console.log(sums);
+//push
+function cardes[]
+let cardes =[2,3]
+cardes push(6)
+console.log(card)
+
